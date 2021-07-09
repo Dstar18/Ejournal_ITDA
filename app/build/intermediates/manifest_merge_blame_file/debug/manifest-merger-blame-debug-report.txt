@@ -1,0 +1,93 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ejournal_itda"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:5:5-80
+11-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:6:5-79
+12-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+13-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:7:5-81
+13-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:7:22-79
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:8:5-66
+14-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:9:5-78
+15-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:10:5-75
+16-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:10:22-73
+17
+18    <application
+18-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:13:5-36:19
+19        android:allowBackup="true"
+19-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:14:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.5.0] /home/star/.gradle/caches/transforms-2/files-2.1/07adfc08fe16d3453ab9291511ec05fe/core-1.5.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:15:9-43
+23        android:label="@string/app_name"
+23-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:16:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:17:9-54
+25        android:supportsRtl="true"
+25-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:18:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.Ejournal_ITDA" >
+27-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:19:9-51
+28        <activity android:name="com.example.ejournal_itda.MainActivity3_avitec2" />
+28-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:20:9-68
+28-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:20:19-56
+29        <activity android:name="com.example.ejournal_itda.MainActivity3_avitec1" />
+29-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:21:9-59
+29-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:21:19-56
+30        <activity android:name="com.example.ejournal_itda.MainActivity3_compiler2" />
+30-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:22:9-61
+30-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:22:19-58
+31        <activity android:name="com.example.ejournal_itda.MainActivity3_compiler1" />
+31-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:23:9-61
+31-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:23:19-58
+32        <activity android:name="com.example.ejournal_itda.MainActivity3_angkasa2" />
+32-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:24:9-60
+32-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:24:19-57
+33        <activity android:name="com.example.ejournal_itda.MainActivity3_angkasa1" />
+33-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:25:9-60
+33-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:25:19-57
+34        <activity android:name="com.example.ejournal_itda.MainActivity2_avitec" />
+34-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:26:9-58
+34-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:26:19-55
+35        <activity android:name="com.example.ejournal_itda.MainActivity2_compiler" />
+35-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:27:9-60
+35-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:27:19-57
+36        <activity android:name="com.example.ejournal_itda.MainActivity2_angkasa" />
+36-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:28:9-59
+36-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:28:19-56
+37        <activity android:name="com.example.ejournal_itda.MainActivity" >
+37-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:29:9-35:20
+37-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:29:19-47
+38            <intent-filter>
+38-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:30:13-34:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:31:17-69
+39-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:31:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:33:17-77
+41-->/home/star/AndroidStudioProjects/Ejournal_ITDA/app/src/main/AndroidManifest.xml:33:27-74
+42            </intent-filter>
+43        </activity>
+44    </application>
+45
+46</manifest>

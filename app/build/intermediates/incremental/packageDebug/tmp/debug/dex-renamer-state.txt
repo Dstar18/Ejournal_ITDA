@@ -1,0 +1,4 @@
+#Fri Jul 09 01:52:44 WIB 2021
+base.0=/home/star/AndroidStudioProjects/Ejournal_ITDA/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

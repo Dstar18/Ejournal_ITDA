@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckgutama"
+    tools:context=".MainActivity3_angkasa2">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-10dp"
+        android:contentDescription="@string/my_image_description"
+        android:src="@drawable/cop_bidangangkasa" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="614dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="100dp"
+        android:isScrollContainer="true"
+        android:stretchColumns="1">
+
+        <TableRow
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:background="#00171919"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:layout_width="319dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:text="NAWANI AND NUKONI APPLICATIONS FOR SUPPORTING SMALL AND MEDIUM MICRO ENTERPRISES IN GUNUNG KIDUL DISTRICT"
+                android:textColor="#4C3735"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <ImageView
+            android:layout_width="121dp"
+            android:layout_height="155dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/my_image_description"
+            android:src="@drawable/dua_jurnalangkasa" />
+
+        <TableRow
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="50dp"
+            android:background="#00171919"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:layout_width="399dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:text="Diterbitkan : 1 Mei 2021"
+                android:textColor="#E8EBEC"
+                android:background="#5C171919"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:background="#00171919"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:layout_width="399dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:text="Asih Pujiastuti, Astika Ayuningtyas, Anggraini Kusumaningrum, Adetya Dyas Saputra"
+                android:textColor="#E8EBEC"
+                android:background="#5C171919"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:background="#00171919"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:layout_width="399dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:text="usaha mikro,kecil dan menengah (UMKM) dapat didefinisikan sebagai usaha produktif . Aplikasi Nawani dan nukani dapat memudahkan para usaha UMKM dalam memeasarkan  produk UMKM dan melakukan stock sedangkan Nukoni berfungsi sebagai katalog produk UMKM."
+                android:textColor="#E8EBEC"
+                android:background="#5C171919"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginTop="50dp"
+            android:background="#00171919"
+            android:scrollbars="vertical">
+
+            <Button
+                android:id="@+id/btn_bukaangkasa2"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:text="Buka" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:background="#00171919"
+            android:scrollbars="vertical">
+
+            <Button
+                android:id="@+id/btn_barudownloadangkasa2"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="-10dp"
+                android:layout_marginTop="0dp"
+                android:onClick="download_angkasa2"
+                android:text="Download" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

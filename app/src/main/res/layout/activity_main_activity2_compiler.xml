@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckgutama"
+    tools:context=".MainActivity2_compiler">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-10dp"
+        android:contentDescription="@string/my_image_description"
+        android:src="@drawable/cop_bidangcompiler" />
+
+    <ImageView
+        android:layout_width="174dp"
+        android:layout_height="217dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="38dp"
+        android:contentDescription="@string/my_image_description"
+        android:src="@drawable/cover_bidangcompiler" />
+
+    <SearchView
+        android:id="@+id/pencarian"
+        android:layout_width="325dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="260dp"
+        android:iconifiedByDefault="false"
+        android:queryHint="Cari Jurnal" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="521dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="300dp"
+        android:isScrollContainer="true"
+        android:stretchColumns="1">
+
+        <TableRow
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:scrollbars="vertical"
+            android:background="#00171919">
+
+            <ImageView
+                android:layout_width="121dp"
+                android:layout_height="155dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/my_image_description"
+                android:onClick="pindah_jurnalcompiler1"
+                android:src="@drawable/satu_jurnalcompiler" />
+
+            <TextView
+                android:id="@+id/tv_jurnal_satucompiler"
+                android:layout_width="235dp"
+                android:layout_height="148dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:background="#5C171919"
+                android:text="Virtual Museum Tur in Wasaka Banjarmasin to Introduct the Collection of Leaders and Local heroes based on Mobile Augmented Reality Teknology in the new Normal Era"
+                android:textColor="#E8EBEC"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_jurnalcompilersatu"
+                android:layout_width="79dp"
+                android:layout_height="38dp"
+                android:layout_marginLeft="-100dp"
+                android:layout_marginTop="135dp"
+                android:onClick="pindah_jurnalcompiler1"
+                android:text="Buka" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:scrollbars="vertical"
+            android:background="#00171919">
+
+            <ImageView
+                android:layout_width="121dp"
+                android:layout_height="155dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/my_image_description"
+                android:onClick="pindah_jurnalcompiler2"
+                android:src="@drawable/dua_jurnalcompiler" />
+
+            <TextView
+                android:id="@+id/tv_jurnal_duacompiler"
+                android:layout_width="235dp"
+                android:layout_height="148dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="-10dp"
+                android:background="#5C171919"
+                android:text="Learning Media Calculating Perimeter of plain Vigures in edugame for Elemntary School"
+                android:textColor="#E8EBEC"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_jurnalcompilerdua"
+                android:layout_width="79dp"
+                android:layout_height="38dp"
+                android:layout_marginLeft="-100dp"
+                android:layout_marginTop="127dp"
+                android:onClick="pindah_jurnalcompiler2"
+                android:text="Buka" />
+
+        </TableRow>
+    </TableLayout>
+
+
+
+</RelativeLayout>
